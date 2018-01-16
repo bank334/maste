@@ -14,82 +14,82 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""❇===== ✞ [B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̅̅ ̲̲̅̅&̲̲̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅] ✞ =====❇
-➣ [Id]➣ ไอดี
-➣ [Mid]➣ เอมไอดีเรา
-➣ [Mic:]➣เชคเอมไอดี
-➣ [Me] ➣ แสดงคทเรา
-➣ [Me @]➣ ดูคอนแทคเพื่อน
-➣ [Mid @]➣ ดูเอมไอดีเพื่อน
-➣ [TL 「Text」
-➣ [MyName]
-➣ [I Gift]
-➣ [Mid 「mid」
-➣ [Group id]
-➣ [Group cancel]
-➣ [Tagall]
-➣ [แอบ]
-➣ [ส่อง]
-➣ [Spam]
-➣ [album 「id」]
-➣ [Hapus album 「id」
-➣ [Contact on] 
-➣ [Contact off] 
-➣ [Auto join on] 
-➣ [Auto join off] 
-➣ [Cancelall]
-➣ [Cleanse]
-➣ [Conban] ➣ เชคแบน
-➣ [Gc] ➣ เชคผู้สร้างกลุ่ม
-➣ [Auto leave on] 
-➣ [Auto leave off]
-➣ [Auto add on/off] 
-➣ [Jam on]
-➣ [Jam off]
-➣ [Jam say]
-➣ [group]➣ แสดงรายชื่อกลุ่มทั้งหมด
-➣ [Reject]➣ลบรัน
-➣ [ลบรัน1]➣ ลบรันร่างคิกเก้อ
-➣ [Mycopy]➣ ก้อปปี้
-➣ [Save]➣ บันทึกสถานะ
-➣ [Mybackup]➣ คืนค่าก้อปปี้
-➣ [Up]➣
-➣ [Ban:on] 
-➣ [Unban:on]
-➣ [Banlist]
-➣ [Com on]
-➣ [Com set]
-➣ [Mcheck] 
-➣ [Message Confirmation] 
-➣ [Mybio: 「Isi Bio」]  
-➣ [Allbio: 「Isi Bio bot」] 
+⎈ [Id]➣ ไอดี
+⎈ [Mid]➣ เอมไอดีเรา
+⎈ [Mic:]➣เชคเอมไอดี
+⎈ [Me] ➣ แสดงคทเรา
+⎈ [Me @]➣ ดูคอนแทคเพื่อน
+⎈ [Mid @]➣ ดูเอมไอดีเพื่อน
+⎈ [TL 「Text」
+⎈ [MyName]
+⎈ [I Gift]
+⎈ [Mid 「mid」
+⎈ [Group id]
+⎈ [Group cancel]
+⎈ [Tagall]
+⎈ [แอบ]
+⎈ [ส่อง]
+⎈ [Spam]
+⎈ [album 「id」]
+⎈ [Hapus album 「id」
+⎈ [Contact on] 
+⎈ [Contact off] 
+⎈ [Auto join on] 
+⎈ [Auto join off] 
+⎈ [Cancelall]
+⎈ [Cleanse]
+⎈ [Conban] ➣ เชคแบน
+⎈ [Gc] ➣ เชคผู้สร้างกลุ่ม
+⎈ [Auto leave on] 
+⎈ [Auto leave off]
+⎈ [Auto add on/off] 
+⎈ [Jam on]
+⎈ [Jam off]
+⎈ [Jam say]
+⎈ [group]➣ แสดงรายชื่อกลุ่มทั้งหมด
+⎈ [Reject]➣ลบรัน
+⎈ [ลบรัน1]➣ ลบรันร่างคิกเก้อ
+⎈ [Mycopy]➣ ก้อปปี้
+⎈ [Save]➣ บันทึกสถานะ
+⎈ [Mybackup]➣ คืนค่าก้อปปี้
+⎈ [Up]➣
+⎈ [Ban:on] 
+⎈ [Unban:on]
+⎈ [Banlist]
+⎈ [Com on]
+⎈ [Com set]
+⎈ [Mcheck] 
+⎈ [Message Confirmation] 
+⎈ [Mybio: 「Isi Bio」]  
+⎈ [Allbio: 「Isi Bio bot」] 
   
           ✞ [B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̅̅ ̲̲̅̅&̲̲̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅] ✞
 
-➣ [Link on]
-➣ [Link off] 
-➣ [Invite「mid」] 
-➣ [Kmid: Kick by mid] 
-➣ [Ginfo] 
-➣ [Cancel]
-➣ [Backup]
-➣ [ K1/K2/K3/K4/K5 fuck]➣ เตะทั้งหมด/เตะรายคน
-➣ [Gn 「Nama grup」➣ เปลี่ยนกลุ่ม
-➣ [Gurl]
-➣ [gurl「kelompok ID
-➣ [Nk「nama」]
-➣ [NK:]
-➣ [Ban:]
-➣ [Unban:]
-➣ [Kill] ➣ ไล่เตะแบน
+⎈ [Link on]
+⎈ [Link off] 
+⎈ [Invite「mid」] 
+⎈ [Kmid: Kick by mid] 
+⎈ [Ginfo] 
+⎈ [Cancel]
+⎈ [Backup]
+⎈ [ K1/K2/K3/K4/K5 fuck]➣ เตะทั้งหมด/เตะรายคน
+⎈ [Gn 「Nama grup」➣ เปลี่ยนกลุ่ม
+⎈ [Gurl]
+⎈ [gurl「kelompok ID
+⎈ [Nk「nama」]
+⎈ [NK:]
+⎈ [Ban:]
+⎈ [Unban:]
+⎈ [Kill] ➣ ไล่เตะแบน
         
 	คำสั่งล็อกห้อง
 
-➣ [Protect on]➣ ป้องกันเปิด
-➣ [qrprotect on/off]➣ ล้อกคิวอาร์โค้ต
-➣ [Inviteprotect on]➣ ล้อกเชิน
-➣ [Cancelprotect on]➣ ยกเชินล้อก
-➣ [Staff add/remove @]
-➣ Respons
+⎈ [Protect on]➣ ป้องกันเปิด
+⎈ [qrprotect on/off]➣ ล้อกคิวอาร์โค้ต
+⎈ [Inviteprotect on]➣ ล้อกเชิน
+⎈ [Cancelprotect on]➣ ยกเชินล้อก
+⎈ [Staff add/remove @]
+⎈ Respons
         
   ❇===== ✞ [B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̅̅ ̲̲̅̅&̲̲̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅] ✞ =====❇
 
